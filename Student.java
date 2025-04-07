@@ -13,4 +13,18 @@ public class Student extends Person {
         super.displayInfo();
         System.out.println("Grade Level: " + gradeLevel);
     }
+
+    @Override
+    public String getDetails() {
+        return "Name: " + getName() + ", ID: " + getId() + ", Grade Level: " + gradeLevel;
+    }
+
+    public String getGradeLevel() {
+        return gradeLevel;
+    }
+
+    public void setGradeLevel(String gradeLevel) {
+        this.gradeLevel = gradeLevel;
+    }
+
 }

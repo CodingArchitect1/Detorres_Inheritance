@@ -13,4 +13,17 @@ public class Teacher extends Person {
         super.displayInfo();
         System.out.println("Subject: " + subject);
     }
+
+    @Override
+    public String getDetails() {
+        return super.getDetails() + ", Subject: " + subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
 }

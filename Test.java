@@ -18,4 +18,24 @@ public class Test {
         System.out.println("Staff Details:");
         staff.displayInfo();
     }
+
+    public static void displayDetails(Person person) {
+        person.displayInfo();
+    }
+
+    public static void getDetails(Person person) {
+        System.out.println(person.getDetails());
+    }
+
+    public static void setDepartment(Staff staff, String department) {
+        staff.setDepartment(department);
+    }
+
+    public static String getDepartment(Staff staff) {
+        return staff.getDepartment();
+    }
+
+    public static void getStaffDetails(Staff staff) {
+        System.out.println(staff.getStaffDetails());
+    }
 }
