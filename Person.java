@@ -10,7 +10,7 @@ public class Person {
     }
 
     public void displayInfo() {
-        System.out.println("Name: " + name);
+        System.out.println("Nameax:s " + name);
         System.out.println("ID: " + id);
 
     }
